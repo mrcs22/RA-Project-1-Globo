@@ -1,0 +1,280 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo-mobile-div{
+    display: none;
+}
+
+.header{
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 40px;
+}
+.header-content{
+    display: flex;
+    height: 103px;
+    width: 1145px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.logo-desktop{
+    width: 95px;
+    margin-right: 60px;
+}
+
+.nav-links > a{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: -0.8px;
+
+    margin-right: 25px;
+}
+.nav-link1{
+    color: #A80001;
+}
+.nav-link2{
+    color: #06aa48;
+}
+.nav-link3{
+    color: #ff7f00;
+}
+.nav-link4{
+    color: #666;
+}
+.nav-link5{
+    color: #0769de;
+}
+
+a:hover{
+    filter: brightness(130%);
+}
+
+.container{
+    display: flex;
+    width: 1145px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.first-content-div{
+    width: 50%;  
+    padding-right: 20px;
+}
+
+.important-news{  
+    font-weight: bold;
+    border-bottom: solid 1px #e6e6e6;
+}
+
+.red{
+    color: #A80001; 
+}
+
+.main-news{
+    font-size: 52px;
+    letter-spacing: -0.5px;
+    line-height: 57px;
+}
+.sub-main-news{
+    display: block;
+    margin: 30px auto; 
+
+    font-size: 18px;
+    letter-spacing: -0.6px;
+}
+
+.news-row{
+    display: flex;
+    justify-content: space-between;
+}
+.first-news-row{
+    margin: 26px 0;
+    border-bottom: 1px solid #e6e6e6;;
+}
+
+.separeted{
+    padding: 0 15px;
+}
+.first-separeted{
+    padding-left: 0;
+}
+
+.width-limited{
+    width: 174px;  
+}
+
+.second-content-div{
+    display: flex;
+    width: 50%;
+}
+
+.news-image{
+    border-radius: 4px;
+}
+.small{
+    height: 96px;
+    width: 171px;
+}
+.large{
+height: 118px;
+width: 235px;
+}
+
+.green-news-column{ 
+    width: 50%;    
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    padding: 0 20px;    
+}
+.green{
+    color: #06aa48;
+}
+
+.news-box{
+    margin-bottom:40px;
+}
+
+.news-title{
+    display: block;
+    padding-top: 8px;
+
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 26px;    
+}
+
+.news-subtitle{
+    display: block;
+    margin-top: 12px;
+
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.orange-news-column{
+    width: 50%; 
+    padding: 0 20px;
+}
+.orange{
+    color: #ec7d00;
+}
+
+.near-top{
+    margin-top: 8px;
+}
+
+@media (max-width:1135px){
+    
+    .header-content{
+        width: 600px;
+    }
+
+    .container{
+        display: block;
+        width: 600px;   
+    }
+    .first-content-div, .second-content-div{
+        width: 100%;
+    }
+
+    .separeted{
+        padding: 0;
+    }
+
+    .green-news-column{
+        border-left: none;
+    }
+
+    .second-news-row{
+        margin: 26px 0;
+        border-bottom: 1px solid #e6e6e6;
+    }
+    
+}
+
+@media (max-width: 640px){
+    .logo-mobile-div{
+        display: block;
+        padding: 10px 0;
+
+        text-align: center;
+    }
+    .logo-mobile{
+        width: 208px;
+        height: 57px;
+    }
+
+    .header{
+        border-top: 1px solid #e6e6e6;
+    }
+    .header-content{
+    height: 50px;
+        width: 375px;
+    }
+    .logo-desktop{
+        display: none;
+    }
+
+    .container{
+        width: 375px;
+    }
+
+    .main-news{
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .sub-main-news{
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .first-news-row, .second-news-row, .second-content-div{
+        display: block;
+    }
+    .news-row{
+        border: none;
+    }
+
+    .green-news-column, .orange-news-column{
+        border: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    .news-box{
+        width: 100%;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #e6e6e6;
+        
+    }
+    .last-box{
+        border: none;
+    }
+    
+    .news-box > div{
+        display: flex;
+        align-items: center;
+    }
+
+    
+
+    .news-title{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .news-subtitle{
+        font-size: 16px;
+        line-height: 19px;
+    }
+        
+    .small, .large{
+        width: 120px;
+        height: 67px;
+        margin-right: 10px;
+    }
+
+   
+}
