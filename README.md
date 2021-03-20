@@ -3,7 +3,7 @@ O objetivo é aplicar o layout de uma versão simplificada da home da Globo.com 
 
 
 
-## O projeto pode ser acessado <a href="">aqui</a>
+## O projeto pode ser acessado <a href="https://ra-projeto-1-globo.netlify.app">aqui</a>
 
 ### Requisitos
  - [x] Aplicar o layout seguindo a imagem fornecida
